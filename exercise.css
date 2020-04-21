@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+
+}
+
+.boxies{
+  margin: 50px 0;
+  width: 960px;
+  display: flex;
+}
+.box{
+  margin-right: 30px;
+  float: left;
+  border: solid;
+  height: 400px;
+  width: 300px;
+  position: relative;
+
+}
+.box h5{
+  color: white;
+}
+h3,p{
+  margin-left: 5px;
+  color: #6c6b6b;
+}
+.komidasi{
+  
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: orange;
+}
+.image1{
+  background-image: url("img/flow01.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+.image2{
+  background-image: url("img/flow02.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+.image3{
+  background-image: url("img/flow03.png");
+  height: 150px;
+  background-size: cover;
+  margin: 10px;
+}
+.blog-image{
+  margin: 10px;
+  width: 280px;
+  position: relative;
+}
+@media screen and (max-width:768px) {
+ .boxies {
+   display: block;
+ }
+ .box{
+   margin-top: 50px;
+   margin-left: 20px;
+   margin-right: 0;
+ }
+.blog-image{
+  width: 90%;
+  height: 60%;
+}
+  
+}
