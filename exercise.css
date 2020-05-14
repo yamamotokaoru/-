@@ -28,7 +28,7 @@ h3,p{
   color: #6c6b6b;
 }
 .komidasi{
-  
+
   height: 20px;
   width: 50px;
   position: absolute;
@@ -64,13 +64,14 @@ h3,p{
    display: block;
  }
  .box{
-   margin-top: 50px;
+   margin-top: 20px;
    margin-left: 20px;
    margin-right: 0;
+   float:none;
  }
 .blog-image{
   width: 90%;
   height: 60%;
 }
-  
+
 }
